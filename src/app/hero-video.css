@@ -1,0 +1,42 @@
+.hero-video {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: rgba(0, 192, 226, 0.8);
+  color: #fff;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.hero-btn:hover {
+  background: #fff;
+  color: #00c0e2;
+}
